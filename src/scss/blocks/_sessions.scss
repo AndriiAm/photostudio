@@ -1,0 +1,106 @@
+.main__sessions-info {
+  margin-top: 100px;
+}
+.sessions-info {
+  display: flex;
+  &__item {
+    width: 50%;
+    &--dark {
+      color: #fff;
+      background-color: #222;
+      font-weight: 400;
+    }
+    &--light {
+      background-color: #f6f6f6;
+      color: #222;
+      font-weight: 500;
+    }
+  }
+  &__img {
+    margin: 0 auto;
+    display: block;
+  }
+  &__inner {
+    text-align: center;
+  }
+  &__icon {
+    margin: 80px auto 20px;
+  }
+  &__title {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  &__list {
+    margin-top: 82px;
+  }
+  &__button {
+    width: 215px;
+    height: 45px;
+    font-size: 16px;
+    margin: 0 auto 100px;
+  }
+}
+.session-list {
+  margin: 80px 0;
+  &__item {
+    position: relative;
+    margin: 0 auto;
+    max-width: 425px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    &:not(:last-child) {
+      margin-bottom: 38px;
+    }
+  }
+  &__number {
+    line-height: 60px;
+    font-size: 80px;
+    font-weight: bold;
+    &--light {
+      color: rgba(254, 254, 254, 0.2);
+    }
+    &--dark {
+      color: rgba(34, 34, 34, 0.2);
+    }
+  }
+  &__text {
+    font-size: 18px;
+    padding-left: 40px;
+    &--small-padding {
+      padding-left: 55px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 1023px) {
+  .session-list__item {
+    padding-left: 50px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .main__sessions-info {
+    margin-top: 50px;
+  }
+  .sessions-info {
+    flex-wrap: wrap;
+    &__item {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 479px){
+  .sessions-info {
+    &__title {
+      font-size: 26px;
+    }
+  }
+  .session-list__item {
+    padding-left: 35px;
+  }
+}

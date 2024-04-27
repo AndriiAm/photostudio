@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Tahu!';
+  src: local('Tahu!'),
+  url('../fonts/Tahu.woff2') format('woff2'),
+  url('../fonts/Tahu.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+  url('fonts/ProximaNova-Regular.woff2') format('woff2'),
+  url('fonts/ProximaNova-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+.container {
+  max-width: 1560px;
+  margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/sessions';
+@import 'blocks/headshots';
+@import 'blocks/searching-studio';
+@import 'blocks/services';
+@import 'blocks/headshots-sessions';
+@import 'blocks/headshots-importance';
+@import 'blocks/clients';
+@import 'blocks/blog';
+@import 'blocks/footer';
+@import 'blocks/media';
