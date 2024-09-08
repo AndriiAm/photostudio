@@ -8,3 +8,7 @@ HTML, CSS (SCSS), JavaScript, Swiper JS, Gulp.
 **Live demo:**  
 [Photostudio Landing](https://andriiam.github.io/photostudio/)
 
+## What I Learned
+
+- **Google Maps API:** This project was my first experience integrating Google Maps API to display an interactive map on the landing page.
+- **PSD to HTML:** I learned how to work with PSD layouts using Photoshop and Zeplin.
